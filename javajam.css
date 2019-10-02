@@ -15,18 +15,26 @@ h1 { padding-top: 45px;
 h4 { background-color: #D2B48C;
     font-size: 1.2em;
 	padding-left:   .5em;   
-	padding-bottom: .25em;    
+	padding-bottom: 0em; 
+    float: left;
+    text-transform: capitalize;
+    border-bottom: ;
 }
 nav { text-align: center; 
      font-weight: bold; 
 	 font-size: 1.5em;
 	 padding-top: 10px;
+    float: left;
+    width: 200px;
 }
 nav a { text-decoration: none; }
-main { padding-left: 2em;
-      padding-right: 2em;
+main { padding-left: 0em;
+      padding-right: 0em;
 	  padding-bottom: 2em;
 	  display: block;
+    margin-left: 200px;
+    padding-top: 0em;
+    background-color: #FEF6C2;
 }
 footer { background-color: #D2B48C;
        font-size: .60em;
@@ -43,7 +51,81 @@ footer { background-color: #D2B48C;
 }
 .details { padding-left: 20%;
            padding-right: 20%;
+    overflow: auto;
 }
 img { padding-left: 10px;
      padding-right: 10px;
 }
+
+*{
+    box-sizing: border-box;
+}
+#heroroad{
+    background-image: url(heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heromugs{
+    background-image: url(heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heroguitar{
+    background-image: url(heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+main h1{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h2{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h3{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main h4{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+nav a:link{
+    color: #FEF6C2;
+}
+nav a:visited{
+    color: #D2B48C;
+}
+nav a:hover{
+    color: #CC9933;
+}
+nav ul{
+    padding-left: 0px;
+}
+#wrapper{
+    background-color: #231814;
+    
+}
+floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+header, nav, main, footer{display: block;}
